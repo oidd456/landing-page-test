@@ -1,0 +1,104 @@
+.header.main, .footer, .header.body {
+  background-color: #1f2937;
+  color: white;
+}
+
+.header.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 72px;
+  }
+  
+  .header.main ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+  }
+
+  .header.main.p {
+    font-weight: 200px;
+  }
+
+  .header.body {
+    display: flex;
+    padding: 48px 72px;
+    gap:20px;
+  }
+
+  .blocka, .blockb {
+    flex: 1;
+  }
+
+
+  .header .title {
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  .blocka {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .blocka p, .blocka button {
+    margin: 0;
+  }
+
+  .blocka button {
+    align-self: flex-start;
+  }
+
+  .blockb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .items {
+    display: flex;
+    gap: 20px;
+  }
+
+  .items .img {
+    border: 2px solid blue;
+    width: 100px;
+    height: 200px;
+    border-radius: 8px;
+  }
+
+  .items .text {
+    width: 100px;
+  }
+
+  .quotebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+  }
+
+  .quotebox .author {
+     align-self: flex-end;
+     font-weight: 1000;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
